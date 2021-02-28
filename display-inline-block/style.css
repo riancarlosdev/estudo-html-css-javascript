@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  font-family: sans-serifs;
+}
+
+ul, ol, li{
+  list-style: none;
+}
+
+.exemplo{
+  text-align: justify;
+}
+
+.exemplo::after{
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+.exemplo-item{
+  width: 25%;
+  height: 150px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.exemplo-item1{
+  background-color: red;
+}
+
+.exemplo-item2{
+  background-color: green;
+}
+
+.exemplo-item3{
+  background: blue;
+}

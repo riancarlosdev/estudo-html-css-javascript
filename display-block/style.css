@@ -1,0 +1,38 @@
+*  {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+ul, ol, li    {
+  list-style-type: none;
+}
+
+.exemplo{
+  color: #fff;
+  text-align: center;
+}
+
+.exemplo-item{
+  display: block;
+  width:33.333%;
+  height: 150px;
+}
+
+
+.exemplo-item_1{
+  background-color: red;
+}
+.exemplo-item_2{
+  margin-left: auto;
+  background-color: blue;
+}
+.exemplo-item_3{
+  background-color: green;
+  margin-left: auto;
+  margin-right: auto;
+}
